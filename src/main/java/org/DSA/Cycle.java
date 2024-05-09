@@ -1,4 +1,4 @@
-package org.GRAPH;
+package org.DSA;
 
 public class Cycle {
 }

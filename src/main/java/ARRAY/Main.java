@@ -1,4 +1,4 @@
-package Heap;
+package ARRAY;
 
 public class Main {
 }

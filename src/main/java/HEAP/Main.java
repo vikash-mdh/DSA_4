@@ -1,4 +1,4 @@
-package Loops;
+package HEAP;
 
 public class Main {
 }
