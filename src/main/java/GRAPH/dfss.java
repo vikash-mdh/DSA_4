@@ -5,8 +5,8 @@ public class dfss {
 
         static void addEdge(ArrayList<ArrayList<Integer>> adj, int u, int v)
         {
-            adj.get(u).add(v);
-            adj.get(v).add(u);
+            adj.get(u).add(v); // this  line only for work directed graph
+            adj.get(v).add(u); // this line only for work undirected graph
         }
 
         static void DFSRec(ArrayList<ArrayList<Integer>> adj,int s, boolean[] visited)
