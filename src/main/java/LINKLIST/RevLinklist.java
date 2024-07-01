@@ -54,6 +54,7 @@ public class RevLinklist {
             list.printList(head);
 
             sc.close();
+            // hello dosto
         }
     }
 
