@@ -15,10 +15,11 @@ public class dyctedcycle {
         recSt[s]=true;
 
         for(int u:adj.get(s)){
-            if(visited[u]==false && DFSRec(adj,u,visited,recSt)==true)
-            {return true;}
-            else if(recSt[u]==true)
-            {return true;}
+            System.out.println(u);
+            if(visited[u]==false && DFSRec(adj,u,visited,recSt)==true) {
+                return true;
+            } else if(recSt[u]==true) {
+                return true;}
         }
         recSt[s]=false;
         return false;
@@ -27,6 +28,7 @@ public class dyctedcycle {
     static boolean DFS(ArrayList<ArrayList<Integer>> adj, int V){
         boolean[] visited=new boolean[V];
         for(int i = 0; i<V; i++)
+            //  System.out.println(visited[i]);
             visited[i] = false;
 
         boolean[] recSt=new boolean[V];
