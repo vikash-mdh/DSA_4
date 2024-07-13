@@ -49,12 +49,8 @@ public class RevLinklist {
             }
             // Reversing the linked list function call
             head = list.reverseList(head);
-
             // print function call
             list.printList(head);
-
-            sc.close();
-            // hello dosto
         }
     }
 
